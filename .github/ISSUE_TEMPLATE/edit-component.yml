@@ -1,0 +1,30 @@
+name: Edit Component
+description: Modify a specific component implementation
+title: "[ADD COMPONENT]"
+labels: ["enhancement"]
+assignees: []
+body:
+- type: textarea
+  attributes:
+    label: Which component is being updated? Where will this change be shown. Why is it being updated?
+    description: Specify which component is being updated. Describe the current problem.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What view/interactivity is expected from the component? Is there an example?
+    description: A clear and concise description of what you want to happen.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How can this change be best implemented?
+    description: Describe how you think these changes would be best implemented.
+- type: textarea
+  attributes:
+    label: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
+    description: Add any other context, links or screenshots here.
+- type: textarea
+  attributes:
+    label: What components could be affected by this change? What considerations should be taken into account?
+    description: Include any warnings here.
