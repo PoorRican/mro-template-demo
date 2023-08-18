@@ -1,0 +1,32 @@
+name: Create Page
+description: Request a new page
+title: "[NEW PAGE]"
+labels: ["enhancement"]
+assignees: []
+body:
+- type: textarea
+  attributes:
+    label: Navigation
+    description: Where should the link(s) to this page be?
+    value: Describe where links should be placed. Ex: "link should be beneath link for Category Details on admin dashboard"
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Component details
+    description: Which component(s) will be on this page? What data will be shown?
+    value: Describe key UI elements.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Appearance/Interactivity
+    description: What is the purpose of this page? What view/interactivity is expected? Is there an example?
+    value: Describe how the page should look and react.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Dependencies
+    description: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
+    value: Add any other context, links or screenshots here.
