@@ -1,0 +1,37 @@
+name: Add Component
+description: Request that a component be added to an existing page
+title: "[ADD COMPONENT]"
+labels: ["enhancement"]
+assignees: []
+body:
+- type: textarea
+  attributes:
+    label: Location
+    description: Which page is being modified? Where should the new component be placed?
+    value: A clear and concise description of component location.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Component details
+    description: What component is being added? What data should component use? Why’s this component being added?
+    value: Describe component details and purpose.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Appearance/Interactivity
+    description: What view/interactivity is expected from the component? Is there an example?
+    value: Describe how the component should react.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Implementation Details
+    description: How would these changes be best implemented?
+    value: Describe how you think these changes would be best implement. Include any warnings here.
+- type: textarea
+  attributes:
+    label: Dependencies
+    description: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
+    value: Add any other context, links or screenshots here.
