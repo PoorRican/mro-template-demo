@@ -6,17 +6,17 @@ assignees: []
 body:
 - type: textarea
   attributes:
-    label: Which component(s) will be on this page? What data will be shown? Where should the link(s) to this page be?
-    description: Describe key UI elements.
+    label: What will be on the page?
+    description: List the elements and data to be displayed. Where should the link to this page go?
   validations:
     required: true
 - type: textarea
   attributes:
-    label: What is the purpose of this page? What view/interactivity is expected? Is there an example?
-    description: Describe how the page should look and react.
+    label: What’s the goal of this page?
+    description: Explain how the page should look and what interactions are expected. Any examples?
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
-    description: Add any other context, links or screenshots here.
+    label: Any prerequisites?
+    description: - Are there other tasks, pull requests, or modules that should be completed first? Include any additional information or screenshots.
