@@ -6,23 +6,23 @@ assignees: []
 body:
 - type: textarea
   attributes:
-    label: Which page is being modified? Where should the new component be placed?
-    description: A clear and concise description of component location.
+    label: Which page needs the component?
+    description: Where on the page page should the component go? If possible provide an example.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: What component is being added? What data should component use? Why’s this component being added?
-    description: Describe component details and purpose.
+    label: What component is being added?
+    description: What data will this component need? Why is it being added?
   validations:
     required: true
 - type: textarea
   attributes:
-    label: What view/interactivity is expected from the component? Is there an example?
-    description: Describe how the component should react.
+    label: How should the component look and behave?
+    description: Explain how the component should work. If possible, give an example.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
-    description: Add any other context, links or screenshots here.
+    label: Any warnings, considerations, or dependencies?
+    description: Note any additional information, such as tasks that must be completed first, or any other factors.
