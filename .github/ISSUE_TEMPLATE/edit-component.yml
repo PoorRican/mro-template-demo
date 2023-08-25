@@ -6,21 +6,17 @@ assignees: []
 body:
 - type: textarea
   attributes:
-    label: Which component is being updated? Where will this change be shown. Why is it being updated?
-    description: Specify which component is being updated. Describe the current problem.
+    label: Which component needs changes?
+    description: Specify which component is being updated and why.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: What view/interactivity is expected from the component? Is there an example?
-    description: A clear and concise description of what you want to happen.
+    label: What should the updated component do?
+    description: Describe what the updated component should look like or how it should behave. If possible, provide an example.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
-    description: Add any other context, links or screenshots here.
-- type: textarea
-  attributes:
-    label: What components could be affected by this change? What considerations should be taken into account?
-    description: Include any warnings here.
+    label: Any warnings, considerations, or dependencies?
+    description: Note any additional information, such as tasks that must be completed first, or any other factors.
