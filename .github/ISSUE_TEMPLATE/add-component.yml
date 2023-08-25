@@ -24,9 +24,5 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: How would these changes be best implemented?
-    description: Describe how you think these changes would be best implement. Include any warnings here.
-- type: textarea
-  attributes:
     label: Are there any dependencies (other tasks, PRs, or modules) that need to be resolved before this change can be implemented?
     description: Add any other context, links or screenshots here.
