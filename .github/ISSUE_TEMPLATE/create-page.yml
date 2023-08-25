@@ -19,4 +19,4 @@ body:
 - type: textarea
   attributes:
     label: Any prerequisites?
-    description: - Are there other tasks, pull requests, or modules that should be completed first? Include any additional information or screenshots.
+    description: Are there other tasks, pull requests, or modules that should be completed first? Include any additional information or screenshots.
