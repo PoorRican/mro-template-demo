@@ -6,13 +6,7 @@ assignees: []
 body:
 - type: textarea
   attributes:
-    label: Where should the link(s) to this page be?
-    description: "Describe where links should be placed. Ex: 'link should be beneath link for Category Details on admin dashboard'"
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Which component(s) will be on this page? What data will be shown?
+    label: Which component(s) will be on this page? What data will be shown? Where should the link(s) to this page be?
     description: Describe key UI elements.
   validations:
     required: true
